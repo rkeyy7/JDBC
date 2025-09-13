@@ -1,4 +1,3 @@
-import com.mysql.cj.conf.PropertyDefinitions;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

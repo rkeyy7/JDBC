@@ -10,7 +10,7 @@ public class App {
         try(Connection conn= DriverManager.getConnection(url, userName, password)){
             PersonaServices personaServices=new PersonaServices();
 
-            //personaServices.obtenerNumeroPersonas(conn);
+            personaServices.obtenerNumeroPersonas(conn);
             //personaServices.insertarPersona(conn);
             //personaServices.actualizarPersona(conn);
             //personaServices.eliminarPersona(conn);
